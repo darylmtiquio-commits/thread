@@ -1,0 +1,132 @@
+elms quiz answer:
+
+Question 1
+ Which of the following outputs of the code will show?
+
+try
+{
+int[] numArr = {15, 22, 143, 54, 85};
+for(int i = 0; i < 6; i++){
+Console.Write(numArr[i] + ", ");
+}
+}
+catch(IndexOutOfRangeException ex){
+Console.Write("Index Out Of Range!");
+}
+Console.ReadLine();
+
+Choices:
+-
+15, 22, 143, 54, 85, Index Out Of Range!
+-
+15, 22, 143, 54, 85,
+-
+Index Out Of Range!
+-
+Index Out Of Range! 15, 22, 143, 54, 85
+Response: 15, 22, 143, 54, 85, Index Out Of Range!
+
+Score: 5 out of 5 Yes
+
+Question 2
+ What keyword is used to re-throw an exception?
+
+Choices:
+-
+catch
+-
+rethrow
+-
+finally
+-
+throw
+Response: throw
+
+Score: 2 out of 2 Yes
+
+Question 3
+ Which of the following outputs is correct based on the given code?
+
+try{
+int num1, num2;
+num1 = 0;
+num2 = 55 / y;
+Console.Write("Answer: " + x);
+}
+catch(ArithmeticException ex)
+{
+Console.Write(" B ");
+}
+finally
+{
+Console.Write(" C ");
+}
+
+Choices:
+-
+Answer: 0 C
+-
+Answer: 0 B
+-
+B C
+-
+C
+Response: B C
+
+Score: 5 out of 5 Yes
+
+Question 4
+ What will be the output of the code below?
+
+try{
+Console.WriteLine("Exception:" + " " + 25 / Convert.ToInt32());
+}
+catch(ArithmeticException ex)
+{
+Console.WriteLine("Divide By Zero Error");
+}
+
+Choices:
+-
+Exception: Divide By Zero Error
+-
+Divide By Zero Error
+-
+Exception: 0
+-
+Exception: 0 Divide By Zero Error
+Response: Divide By Zero Error
+
+Score: 3 out of 3 Yes
+
+Question 5
+ Which of the following outputs is correct based on the given code?
+
+try
+{
+int[] arr = {1, 2, 3, 4, 5};
+for(int i = 0; i < 5; i++){
+Console.WriteLine(arr[i]);
+}
+}
+catch(IndexOutOfRangeException ie)
+{
+Console.WriteLine("Index Out Of Range Exception");
+}
+catch(ArithmeticException ae){
+Console.WriteLine("Arithmetic Exception");
+}
+Console.ReadLine();
+
+Choices:
+-
+ArithmeticException
+-
+1 2 3 4 5
+-
+IndexOutOfRangeException
+-
+ErrorException
+Response: 1 2 3 4 5
+
+Score: 5 out of 5 
